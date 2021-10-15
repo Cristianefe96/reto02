@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<inpu>
+    <head>
+        <title>Reto02</title>
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src = "js/reto01funciones.js"> </script>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+    </head>
+        <h1>RETO 02</h1>
+        <button onclick="consulta()">Mostrar Bicicletas</button>
+        <button onclick="crearBicicleta()">Nueva Bici</button>
+        <input type="number" id="idIDBici" placeholder="ID Bici"></input>
+        <input type="text" id="idMarBici" placeholder="Marca"></input>
+        <input type="number" id="idModBici" placeholder="Módelo"></input>
+        <input type="number" id="idCatBici" placeholder="Referencia"></input>
+        <input type="text" id="idNomBici" placeholder="Descripción"></input>
+        <button onclick="borrarBicicleta()">Borrar Bici</button>
+        <input type="text" id="idIDBiciBorra" placeholder="ID Bici a Eliminar"></input>
+        <button onclick="actualizarBicicleta()">Actualizar Bici</button>
+        <input type="number" id="idIDBiciAct" placeholder="ID Bici a actualizar"></input>
+        <input type="text" id="idMarBiciAct" placeholder="Actualiza Marca"></input>
+        <input type="number" id="idModBiciAct" placeholder="Actualiza Módelo"></input>
+        <input type="number" id="idCatBiciAct" placeholder="Actualiza Referencia"></input>
+        <input type="text" id="idNomBiciAct" placeholder="Actualiza Descripción"></input>
+        <button onclick="consultaCliente()">Ver Perfil Cliente</button>
+        <input type="number" id="idCliente" placeholder="Cliente ID"></input>
+        <button onclick="registroCliente()">Registro Clientes</button>
+        <input type="number" id="idIDClienteReg" placeholder="Cliente ID"></input>
+        <input type="text" id="idNameCliente" placeholder="Nombre Cliente"></input>
+        <input type="text" id="idEmailCliente" placeholder="Email Cliente"></input>
+        <input type="number" id="idAgeCliente" placeholder="Edad Cliente"></input>
+        <button onclick="registroMensajes()">Deja Tu Mensaje</button>
+        <input type="number" id="idIDMensaje" placeholder="Mensaje ID"></input>
+        <input type="text" id="idTextM" placeholder="Escriba su mensaje"></input>
+        <button onclick="consultaMensajes()">Ver Mensajes</button>
+        <button onclick="borrarMensaje()">Borrar Mensaje</button>
+        <input type="number" id="idIDMensajeBorra" placeholder="ID Mensaje a Eliminar"></input>
+        
+        <div id="divTabla"> 
+
+        </div>
+
+    </body>
+</html>
